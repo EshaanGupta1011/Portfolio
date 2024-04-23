@@ -10,7 +10,10 @@ const Hero = () => {
       <h1>
         <span className="surname">Eshaan Gupta</span>
       </h1>
-      <p>I am a 2nd year student persuing my B.Tech in AI and ML.</p>
+      <p>
+        I am a 2nd year student persuing my B.Tech in Artificial Intelligence
+        and Machine Learning.
+      </p>
       <div className="hero-action">
         <div className="hero-resume">My resume</div>
       </div>
