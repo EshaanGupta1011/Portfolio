@@ -57,6 +57,11 @@
   background-color: #292929;
 }
 
+.hero-resume-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 /*Responsive*/
 
 @media (max-width: 768px) {

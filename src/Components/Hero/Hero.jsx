@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import profile_img from "../../assets/profile_img.jpg";
+import resume from "../../assets/Resume.pdf";
 
 const Hero = () => {
   return (
@@ -15,7 +16,9 @@ const Hero = () => {
         and Machine Learning.
       </p>
       <div className="hero-action">
-        <div className="hero-resume">My resume</div>
+        <a href={resume} download className="hero-resume-link">
+          <div className="hero-resume">My resume</div>
+        </a>
       </div>
     </div>
   );

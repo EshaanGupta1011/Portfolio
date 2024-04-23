@@ -13,9 +13,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <hr className="horizontal-line" />
       <Mywork />
-      <hr className="horizontal-line" />
       <Contact />
       <Footer />
     </div>

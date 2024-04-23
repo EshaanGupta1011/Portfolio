@@ -56,13 +56,9 @@ const About = () => {
               ))}
             </div>
           </div>
-          <div className="flex-centre">
-            <p>And many more!</p>
-          </div>
+          <div className="flex-centre"></div>
         </div>
       </div>
-
-      <hr className="horizontal-line" />
 
       <h3 id="achievement" className="about-achievement-heading">
         Achievements
@@ -78,8 +74,6 @@ const About = () => {
           ))}
         </div>
       </div>
-
-      <hr className="horizontal-line" />
 
       <h3 id="experience" className="about-achievement-heading">
         Experience
