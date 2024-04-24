@@ -1,3 +1,4 @@
+/********************************/
 @media (max-width: 768px) {
   .section-achievement {
     display: flex;
@@ -21,5 +22,13 @@
     flex-direction: column;
     gap: 20px;
     align-items: start;
+  }
+}
+
+/********************************/
+
+@media (max-width: 420px) {
+  .section-achievement {
+    margin: 10px 50px;
   }
 }

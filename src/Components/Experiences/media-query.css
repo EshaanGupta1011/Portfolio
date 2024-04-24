@@ -1,3 +1,10 @@
+@media (max-width: 420px) {
+  .section-experience {
+    margin: 10px 50px;
+  }
+}
+
+/************************/
 @media (max-width: 768px) {
   .section-experience {
     margin: 50px 150px;
@@ -25,5 +32,13 @@
 
   .experience-text {
     font-size: 14px;
+  }
+}
+
+/***********************************/
+
+@media (max-width: 420px) {
+  .section-experience {
+    margin: 10px 50px;
   }
 }

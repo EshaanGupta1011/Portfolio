@@ -18,10 +18,22 @@
   }
 
   .work-img {
-    width: 70%;
+    width: 100%;
   }
 
   .work-text {
     font-size: 12px;
+  }
+}
+/*************************/
+
+@media (max-width: 420px) {
+  .mywork {
+    margin: 10px 50px;
+    margin-top: 100px;
+  }
+
+  .work-img {
+    width: 100%;
   }
 }

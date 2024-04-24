@@ -1,3 +1,11 @@
+@media (max-width: 420px) {
+  .navbar {
+    margin: 0px 0px;
+    padding: 0;
+  }
+}
+
+/********************************/
 @media (max-width: 768px) {
   .navbar {
     margin: 0px 0px;

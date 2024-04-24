@@ -52,3 +52,16 @@
     font-size: 26px;
   }
 }
+
+/********************************/
+
+@media (max-width: 420px) {
+  .contact-title h1 {
+    font-size: 36px;
+  }
+
+  .contact-title img {
+    width: 100px;
+    right: 20px;
+  }
+}
