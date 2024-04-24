@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import "./Navbar.css";
+import "./media-query.css";
 import logo from "../../assets/logo_2.png";
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";

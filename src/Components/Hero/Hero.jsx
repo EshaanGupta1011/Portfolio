@@ -1,6 +1,8 @@
 import React from "react";
 import "./Hero.css";
+import "./media-query.css";
 import profile_img from "../../assets/profile_img.jpg";
+import about_img from "../../assets/about_img.png";
 import resume from "../../assets/Resume.pdf";
 
 const Hero = () => {

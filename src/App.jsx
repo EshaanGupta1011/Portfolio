@@ -6,6 +6,8 @@ import About from "./Components/About/About";
 import Mywork from "./Components/Mywork/Mywork";
 import Contact from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
+import Achievement from "./Components/Achievements/Achievement";
+import Experience from "./Components/Experiences/Experience";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Achievement />
+      <Experience />
       <Mywork />
       <Contact />
       <Footer />

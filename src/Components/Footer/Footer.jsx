@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import "./media-query.css";
 
 export const Footer = () => {
   return (

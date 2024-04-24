@@ -1,5 +1,6 @@
 import React from "react";
 import "./Mywork.css";
+import "./media-query.css";
 import arrow_icon from "../../assets/arrow_icon.svg";
 import project1_img from "../../assets/project_1.png";
 import project2_img from "../../assets/project_2.png";

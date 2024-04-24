@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .mywork {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin: 50px 150px;
+    margin-top: 100px;
+  }
+
+  .mywork-title h1 {
+    font-size: 34px;
+  }
+
+  .mywork-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .work-img {
+    width: 70%;
+  }
+
+  .work-text {
+    font-size: 12px;
+  }
+}

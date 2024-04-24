@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.css";
+import "./media-query.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import AnimationComponent from "../Animation/Animation";
 

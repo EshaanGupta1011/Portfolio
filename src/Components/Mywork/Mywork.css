@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 80px;
-  margin: 80px 170px;
+  gap: 50px;
+  margin: 100px 200px;
 }
 
 .mywork-title {
@@ -59,30 +59,3 @@
 }
 
 /*Responsive*/
-
-@media (max-width: 768px) {
-  .mywork {
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    margin: 20px 50px;
-  }
-
-  .mywork-title h1 {
-    font-size: 34px;
-  }
-
-  .mywork-container {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-
-  .work-img {
-    width: 70%;
-  }
-
-  .work-text {
-    font-size: 12px;
-  }
-}

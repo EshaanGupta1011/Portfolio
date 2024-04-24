@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .footer {
+    padding: 6px;
+  }
+
+  .footer-text p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
