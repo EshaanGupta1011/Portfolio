@@ -96,18 +96,21 @@ const Contact = () => {
           <form className="contact-section-right" onSubmit={onSubmit}>
             <label htmlFor="">Your Name</label>
             <input
+              required
               type="text"
               placeholder="Enter your name"
               name="name"
             ></input>
             <label htmlFor="">Your Email-id</label>
             <input
+              required
               type="email"
               placeholder="Enter your e-mail id"
               name="email"
             ></input>
             <label htmlFor="">Write your message here</label>
             <textarea
+              required
               name="message"
               rows="8"
               placeholder="Enter your message..."
