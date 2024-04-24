@@ -114,6 +114,35 @@
   background-color: #772c57;
 }
 
+.contact-form-submitted-text {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.submit-again-button {
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+  background-color: #c74991;
+  font-size: 22px;
+  padding: 20px 60px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.submit-again-button:hover {
+  transform: scale(1.1);
+  background-color: #772c57;
+}
+
+.form-submitted {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 36px;
+}
+
 /*Responsive*/
 
 @media (max-width: 768px) {
@@ -159,9 +188,14 @@
     width: 95%;
   }
 
-  .contact-submit {
+  .contact-submit,
+  .submit-again-button {
     font-size: 16px;
     padding: 10px 40px;
     margin-bottom: 30px;
+  }
+
+  .contact-form-submitted-text {
+    font-size: 26px;
   }
 }

@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
+import AnimationComponent from "../Animation/Animation";
 
 const Contact = () => {
+  const [success, setSuccess] = useState(false);
+  const [isFormVisible, setFormVisible] = useState(true);
+
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -22,8 +26,13 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      alert(res.message);
+      setSuccess(true);
+      setFormVisible(false);
     }
+  };
+
+  const onSubmitAgain = () => {
+    setFormVisible(true);
   };
 
   return (
@@ -83,25 +92,41 @@ const Contact = () => {
           </div>
         </div>
 
-        <form onSubmit={onSubmit} className="contact-section-right">
-          <label htmlFor="">Your Name</label>
-          <input type="text" placeholder="Enter your name" name="name"></input>
-          <label htmlFor="">Your Email-id</label>
-          <input
-            type="email"
-            placeholder="Enter your e-mail id"
-            name="email"
-          ></input>
-          <label htmlFor="">Write your message here</label>
-          <textarea
-            name="message"
-            rows="8"
-            placeholder="Enter your message..."
-          ></textarea>
-          <button type="submit" className="contact-submit">
-            Submit Now
-          </button>
-        </form>
+        {isFormVisible ? (
+          <form className="contact-section-right" onSubmit={onSubmit}>
+            <label htmlFor="">Your Name</label>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              name="name"
+            ></input>
+            <label htmlFor="">Your Email-id</label>
+            <input
+              type="email"
+              placeholder="Enter your e-mail id"
+              name="email"
+            ></input>
+            <label htmlFor="">Write your message here</label>
+            <textarea
+              name="message"
+              rows="8"
+              placeholder="Enter your message..."
+            ></textarea>
+            <button type="submit" className="contact-submit">
+              Submit Now
+            </button>
+          </form>
+        ) : (
+          <div className="form-submitted">
+            <AnimationComponent />
+            <p className="contact-form-submitted-text">
+              Thank you for your submission!
+            </p>
+            <button onClick={onSubmitAgain} className="submit-again-button">
+              Submit Again
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
