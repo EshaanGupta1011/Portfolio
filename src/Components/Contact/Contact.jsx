@@ -48,7 +48,7 @@ const Contact = () => {
           <h1>Let Us Talk</h1>
           <p>
             Great ideas are shared when two human beings talk. Contact me
-            through any of the given link below.
+            through any of the given links below.
           </p>
 
           <div className="contact-details">

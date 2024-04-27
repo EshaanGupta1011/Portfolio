@@ -30,15 +30,15 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              Greetings! My name is Eshaan Gupta and i am currently pursuing
+              Greetings! My name is Eshaan Gupta and I am currently pursuing
               B.Tech in Artificial Intelligence and Machine Learning from
               GGSIPU, East Delhi Campus, University School of Automation and
               Robotics.
             </p>
             <p>
               I completed my schooling from Mount St' Mary's School, Delhi
-              Cantt. I love to work on new technologies and learn to evolve in
-              this everchanging technical world.
+              Cantt. My core interests lie in studying emerging technologies and
+              implementing them in this era of technological dynamism.
             </p>
           </div>
 

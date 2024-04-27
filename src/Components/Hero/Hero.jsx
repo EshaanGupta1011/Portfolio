@@ -3,7 +3,7 @@ import "./Hero.css";
 import "./media-query.css";
 import profile_img from "../../assets/profile_img.jpg";
 import about_img from "../../assets/about_img.png";
-import resume from "../../assets/Resume.pdf";
+import resume from "../../assets/EshaanGupta_Resume.pdf";
 
 const Hero = () => {
   return (
@@ -14,8 +14,8 @@ const Hero = () => {
         <span className="surname">Eshaan Gupta</span>
       </h1>
       <p>
-        I am a 2nd year student persuing my B.Tech in Artificial Intelligence
-        and Machine Learning.
+        I am a 2nd year student pursuing B.Tech in Artificial Intelligence and
+        Machine Learning.
       </p>
       <div className="hero-action">
         <a href={resume} download className="hero-resume-link">

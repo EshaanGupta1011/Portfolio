@@ -17,7 +17,7 @@ const Mywork = () => {
         <div className="mywork-box">
           <img src={project1_img} alt="" className="work-img" />
           <p className="work-text">
-            A website that makes you guess a random number between 1 to 20
+            A website that makes you guess a random number between 1 to 20.
           </p>
           <a
             href="https://github.com/EshaanGupta1011/GuessTheNumberGame"
@@ -32,7 +32,8 @@ const Mywork = () => {
           <img src={project2_img} alt="" className="work-img" />
           <p className="work-text">
             Dant Villa Dental Clinic website that users can use to know the
-            facilities of the clinic and even reach to the doctors and staff
+            facilities provided by the doctors. The website not only enhanced
+            its visibility, but also attracted many towards oral hygiene.
           </p>
           <a href="https://dantvilla.com/" target="blank" className="work-link">
             Know more
@@ -42,7 +43,9 @@ const Mywork = () => {
         <div className="mywork-box">
           <img src={project3_img} alt="" className="work-img" />
           <p className="work-text">
-            Machine Learning model that converts sign language to text/speech
+            Machine Learning model that converts sign language to text/speech.
+            It aims at social inclusion of speech and hearing impaired
+            population.
           </p>
           <a
             href="https://github.com/EshaanGupta1011/Sign2Text"
