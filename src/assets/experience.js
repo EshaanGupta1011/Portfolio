@@ -1,8 +1,24 @@
 const experience = [
   {
-    title: "6 months internship",
-    desc: "I worked as an intern at Dant Villa Dental Clinic. I developed its website as a greenfield project using HTML/CSS and JavaScript",
+    title: "Dant Villa Dental Clinic",
+    desc: "I worked as a web developer intern at Dant Villa Dental Clinic. I developed its website as a greenfield project using ReactJs and hosted the website using GoDaddy",
   },
+
+  {
+    title: "The Amoli Trust",
+    desc: "I am serving as a volunteer at The Amoli Trust. We conduct sessions in primary governement schools to educate the children about prevention against child sexual abuse",
+  },
+
+  {
+    title: "Reliance Power, Sasan Power Limited",
+    desc: "I am working as a vocational trainee for a month. I am working on Grid Frequency Prediction using machine learning in python and concepts of Time Series Analysis and Data Analytics",
+  },
+
+  {
+    title: "Quamin Tech Solutions LLP",
+    desc: "I am working as a web developer intern. The company aims to provide technical services to its customers. My role is to maintain and improve the website ",
+  },
+
   {
     title: "Core Photographer at Darpan",
     desc: "As a member of The Darpan, the photography and media team of GGSIPU EDC, USAR, I have covered many cultural and technical events across the campus",
@@ -10,10 +26,6 @@ const experience = [
   {
     title: " The General Secretary of The Matrix Clan",
     desc: "As the General Secretary (2022-23) of the technical club of Mount St' Mary's School, I had an opportunity to showcase my leadership skills and contribute in the decision making process of the clan.",
-  },
-  {
-    title: "The Matrix Ecomm Buzz organiser",
-    desc: "As the General Secretary, I along with my team organised technical competitions. Out of them, A/V Sync and Digital Imaging and Photography competition deserve mention",
   },
 ];
 
