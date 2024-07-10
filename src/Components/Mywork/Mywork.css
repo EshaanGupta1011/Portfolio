@@ -7,6 +7,24 @@
   margin: 100px 200px;
 }
 
+.mywork-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin: 50px;
+}
+
+.work-card-indv:hover {
+  transform: translateY(-10px);
+}
+
+.work-card-indv {
+  border-radius: 16px;
+  transition: all 0.3s;
+  border: solid #3d3d3d;
+  padding: 24px;
+}
+
 .mywork-title {
   font-size: 30px;
   background: linear-gradient(#fff, #4161bb);
@@ -46,11 +64,20 @@
 }
 
 .work-text {
+  display: flex;
   font-size: 20px;
   line-height: 32px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 64px;
 }
 
 .work-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: #c74991;
   font-weight: 700;
