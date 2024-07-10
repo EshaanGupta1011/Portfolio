@@ -1,0 +1,10 @@
+@media (max-width: 420px) {
+  .acc-text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .acc-knowmore {
+    margin: 16px;
+  }
+}

@@ -1,4 +1,11 @@
 @media (max-width: 768px) {
+  .mywork-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    margin: 0px;
+  }
+
   .mywork {
     display: flex;
     align-items: start;
@@ -31,6 +38,30 @@
   .mywork {
     margin: 10px 50px;
     margin-top: 100px;
+  }
+
+  .work-img {
+    width: 100%;
+  }
+
+  .mywork-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    margin: 0px;
+  }
+
+  .work-card-indv {
+    border-radius: 16px;
+    transition: all 0.3s;
+    border: solid #3d3d3d;
+    padding: 10px;
+  }
+
+  .work-text {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 20px;
   }
 
   .work-img {

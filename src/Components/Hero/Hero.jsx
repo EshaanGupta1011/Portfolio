@@ -14,7 +14,7 @@ const Hero = () => {
         <span className="surname">Eshaan Gupta</span>
       </h1>
       <p>
-        I am a 2nd year student pursuing B.Tech in Artificial Intelligence and
+        I am a 3rd year student pursuing B.Tech in Artificial Intelligence and
         Machine Learning.
       </p>
       <div className="hero-action">

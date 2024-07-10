@@ -1,6 +1,7 @@
 // src/Accordion.js
 import React, { useState } from "react";
 import "./Accordion.css";
+import "./media-query.css";
 
 const AccordionItem = ({ title, content, isOpen, onClick }) => {
   return (
