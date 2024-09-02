@@ -3,14 +3,18 @@
   align-items: center;
   justify-content: space-between;
   margin: 0px 0px;
-  background-color: #161513;
-
+  background: transparent;
   position: fixed;
   width: 100%;
   padding: 10px 50px;
   box-sizing: border-box;
   z-index: 99;
-  opacity: 0.9;
+  opacity: 0.95;
+}
+
+.navbar-dark {
+  background-color: #161513;
+  transition: background-color 0.5s ease;
 }
 
 .nav-logo {

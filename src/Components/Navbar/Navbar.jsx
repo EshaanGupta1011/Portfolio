@@ -1,14 +1,14 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import "./Navbar.css";
 import "./media-query.css";
 import logo from "../../assets/logo_2.png";
-import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
+  const [isDark, setIsDark] = useState(false);
   const menuRef = useRef();
 
   const openMenu = () => {
@@ -19,8 +19,24 @@ const Navbar = () => {
     menuRef.current.style.right = "-350px";
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 500) {
+        setIsDark(true);
+      } else {
+        setIsDark(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="navbar">
+    <div className={`navbar ${isDark ? "navbar-dark" : ""}`}>
       <img src={logo} alt="" className="nav-logo" />
       <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
       <ul ref={menuRef} className="nav-menu">

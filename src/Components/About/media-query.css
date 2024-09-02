@@ -36,6 +36,11 @@
   .about-skill p {
     font-size: 14px;
   }
+
+  .Image {
+    width: 100%;
+    aspect-ratio: 1;
+  }
 }
 
 @media (max-width: 1420px) {
