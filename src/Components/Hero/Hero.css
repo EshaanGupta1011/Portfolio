@@ -16,16 +16,7 @@
 }
 
 .surname {
-  background: linear-gradient(
-    90deg,
-    #4062bb,
-    #fafafa,
-    #4062bb,
-    rgb(115, 0, 0),
-    #4062bb,
-    #fafafa,
-    #4062bb
-  );
+  background: linear-gradient(90deg, #4062bb, #fafafa, #4062bb, #fafafa);
   background-size: 300% 100%;
   background-clip: text;
   -webkit-background-clip: text;
