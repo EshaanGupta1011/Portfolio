@@ -5,7 +5,7 @@ import project3_img from "../assets/project_3.png";
 const mywork_data = [
   {
     w_no: 1,
-    w_name: "Web design",
+    w_name: "Machine Learning Model",
     w_img: project1_img,
   },
   {
@@ -15,7 +15,7 @@ const mywork_data = [
   },
   {
     w_no: 3,
-    w_name: "Machine Learning model",
+    w_name: "Web design",
     w_img: project3_img,
   },
 ];

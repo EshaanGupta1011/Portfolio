@@ -1,10 +1,24 @@
 import project1_img from "../assets/project_1.png";
 import project2_img from "../assets/project_2.png";
 import project3_img from "../assets/project_3.png";
+import project4_img from "../assets/project_4.png";
 
 const mywork = [
   {
     w_no: 1,
+    text: "Food delivery web application",
+    img: project4_img,
+    link: "https://dinedash101.netlify.app/",
+    accordionItems: [
+      {
+        title: "Know more ↓",
+        content:
+          "I developed DineDash, an online food delivery web application using the MERN stack and integrated Stripe for payment processing. The backend is hosted on Render, while the frontend is deployed on Netlify. Additionally, there's an admin panel for managing data entry and order processing.",
+      },
+    ],
+  },
+  {
+    w_no: 2,
     text: "Sign Language to Text/Speech",
     img: project3_img,
     link: "https://github.com/EshaanGupta1011/Korero",
@@ -18,7 +32,7 @@ const mywork = [
   },
 
   {
-    w_no: 2,
+    w_no: 3,
     text: "Dant Villa Dental Clinic",
     img: project2_img,
     link: "https://dantvilla.com/",
@@ -32,7 +46,7 @@ const mywork = [
   },
 
   {
-    w_no: 3,
+    w_no: 4,
     text: "Guess the Number",
     img: project1_img,
     link: "https://github.com/EshaanGupta1011/GuessTheNumberGame",
